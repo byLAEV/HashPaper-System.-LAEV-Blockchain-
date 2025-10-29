@@ -10,7 +10,7 @@ Technical Document – Request System, Terms, and API for Integration with Amazo
 Version: 1.0
 Author: LAEV (Lerry Alexander Elizondo Villalobos)
 
-Purpose: This document defines the conceptual architecture, technical foundations, legal guidelines, and operational conditions for implementing a traceability and record‑keeping system anchored to the Bitcoin network. Its goal is to enable interoperability with corporations such as Amazon, using Bitcoin providers (e.g., Hamburg Assist or Proton AMG) as trusted intermediaries for conversion, anchoring, and certification of logistical data.
+Purpose: This document defines the conceptual architecture, technical foundations, legal guidelines, and operational conditions for implementing a traceability and record‑keeping system anchored to the Bitcoin network. Its goal is to enable interoperability with corporations such as Amazon, using Bitcoin providers (e.g., Hanbot Assist or Proton AMG) as trusted intermediaries for conversion, anchoring, and certification of logistical data.
 
 Executive Summary
 The document comprehensively covers:
@@ -19,7 +19,7 @@ Essential Terms of Service (TOS).
 Description of the operational and cryptographic flow for transmitting metadata and payments.
 Structure of the public and private integration APIs.
 Standardized label and QR‑code format for verification.
-Architecture of the artificial‑intelligence agent called Hamburg Assist.
+Architecture of the artificial‑intelligence agent called Hanbot Assist.
 Security, audit, and governance mechanisms.
 A technical schedule that allows delivery of a functional prototype within two months.
 The proposed model removes friction between logistics infrastructure and the Bitcoin network by delegating transaction execution to certified providers who return validated information (txid, hash, link, QR) for printing and public blockchain lookup.
@@ -170,6 +170,6 @@ Payment disputes	On‑chain escrow and validation mechanisms
 Obtain institutional approval of the TOS.
 Define mandatory metadata fields.
 Generate API credentials and sandbox environment.
-Conduct initial functional tests of Hamburg Assist.
+Conduct initial functional tests of hanbot Assist.
 Validate end‑to‑end label printing and traceability workflow.
 End of technical document.
